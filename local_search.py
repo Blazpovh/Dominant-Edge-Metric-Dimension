@@ -102,4 +102,4 @@ def Dedim(g, N):
         if len(Resitev_i) < len(dedim):
             dedim = Resitev_i
     if is_dominant_edge_resolving_set(g, dedim):
-        return dedim
+        return dedim, len(dedim)
